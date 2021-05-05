@@ -10,10 +10,14 @@
     font-family: 'Montserrat';font-size: 30px;
 }
 
+.tombol {
+	font-family: 'Montserrat';
+}
+
 .color {
 	--tes: #38728B;
 }
 
 .margin {
-	margin-left: 11rem;
+	margin-left: 9.8rem;
 }
