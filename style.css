@@ -14,6 +14,7 @@
 
 .tombol {
     font-family: 'Montserrat';
+    margin-bottom: 0.5rem;
 }
 
 .color {
@@ -21,7 +22,7 @@
 }
 
 .margin {
-    margin-left: 9.5rem;
+    margin-left: 8rem;
 }
 
 .mg {
