@@ -15,13 +15,7 @@
   </head>
 
   <body class="container" style="background-color:#38728B">
-    <?php 
-    if(isset($_GET['pesan'])){
-        if($_GET['pesan']=="gagal"){
-            echo "<div class='alert'>Username dan Password tidak sesuai !</div>";
-        }
-    }
-    ?>
+    
     <div class="jumbotron text-center">
     <h1 class="body fw-bold text-white">SIMPAN DESA</h1>   
     <p class="paragraph text-white">Sistem Informasi Peminjaman<br>Peralatan Desa</p>
@@ -31,7 +25,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="login-wrap p-0">
                     <form action="cek_login.php" class="signin-form" method="post">
-                        <div class="form-group mt-4">
+                        <div class="form-group">
                             <label for="nik"></label>
                             <input type="text" name="nik" id="nik" class="form-control" placeholder="NIK" required>
                         </div>
@@ -39,6 +33,13 @@
                             <label for="pass"></label>
                             <input id="password-field" type="password" name="pass" id="pass" class="form-control" placeholder="Password" required>
                         </div>
+                        <?php 
+                            if(isset($_GET['pesan'])){
+                                if($_GET['pesan']=="gagal"){
+                                    echo "<div class='alert text-white'>Username dan Password tidak sesuai !</div>";
+                                }
+                            }
+                        ?>
                         <div class="tombol btn-group justify-content-center">
                             <button type="submit" name="masuk" class="margin fw-bold form-control btn-white btn-lg mt-5">Masuk</button>
                         </div>

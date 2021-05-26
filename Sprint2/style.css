@@ -1,0 +1,36 @@
+.jumbotron {
+	margin-top: 8rem;
+}
+
+.body {
+    font-family: 'Montserrat';font-size: 80px;
+}
+
+.paragraph {
+    font-family: 'Montserrat';font-size: 30px;
+}
+
+.info {
+	font-family: 'Montserrat';font-size: 13px;
+}
+
+.tombol {
+	font-family: 'Montserrat';
+}
+
+.color {
+	--tes: #38728B;
+}
+
+.margin {
+	margin-left: 9rem;
+	padding-right: 35px;
+}
+
+.margin1 {
+	margin-left: 9rem;
+}
+
+.mg {
+	margin-right: 4rem;
+}
