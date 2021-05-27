@@ -12,9 +12,13 @@
     font-size: 30px;
 }
 
+.info {
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+
 .tombol {
     font-family: 'Montserrat';
-    margin-bottom: 0.5rem;
 }
 
 .color {
@@ -23,8 +27,8 @@
 
 .margin {
     margin-left: 8rem;
-}
-
-.mg {
-    margin-right: 4rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    width: 200px;
 }
