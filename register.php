@@ -15,7 +15,8 @@ if (isset($_POST['submit'])) {
     $query = mysqli_query($koneksi, $sql);
     $result = mysqli_fetch_assoc($query);
     if (!$result) {
-        if ($password == $password2) {
+        if ($password == $password2)  {
+            $password = password_hash($password, PASSWORD_DEFAULT);
             $sql_insert = "INSERT INTO user (nik, nama, pass, hak_akses) VALUES ('$nik', '$nama', '$password', 'user')";
             $query2 =mysqli_query($koneksi, $sql_insert);
             if(!$query2){
